@@ -1,15 +1,18 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-authors',
   templateUrl: './authors.component.html',
-  styleUrls: ['./authors.component.css']
+  styleUrls: ['./authors.component.css'],
+  standalone: true,
+  imports: [FormsModule]
 })
 export class AuthorsComponent {
-  authorId: number;
+  authorId: number = 0;
   author: any;
-  errorMessage: string;
+  errorMessage: string = '';
 
   constructor(private http: HttpClient) {}
 
