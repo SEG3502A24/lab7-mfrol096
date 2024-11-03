@@ -4,4 +4,9 @@
 Access SpringBoot RESTFul API - in branch *server* 
 
 Access Angular Client Application - in branch *client*
+
 Mariya Frolova 300264691
+
+When searching for Author ID, search 1
+
+When searching for Book ID,  you can search 1 or 2
