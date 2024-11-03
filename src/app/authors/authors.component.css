@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    font-family: Helvetica
 }
 
 
@@ -33,7 +34,7 @@ button {
     padding: 10px 20px;
     font-size: 1em;
     color: #fff;
-    background-color: #007bff;
+    background-color: #8caed2;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -41,7 +42,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: pink;
 }
 
 

@@ -1,10 +1,12 @@
 a:link, a:visited {
-  background-color: #0000b3;
+  background-color: pink;
   color: white;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  margin-left: 75px;
+  margin-bottom: 100px;
 }
 
 a:hover, a:active {
