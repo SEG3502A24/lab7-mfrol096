@@ -1,0 +1,51 @@
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+label {
+    font-size: 1.1em;
+    color: #333;
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.author-details {
+    margin-top: 20px;
+   
+}

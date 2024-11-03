@@ -1,0 +1,18 @@
+<div class="container">
+    <h2>Find Author</h2>
+    <form (ngSubmit)="onSubmit()">
+      <label for="authorId">Author ID:</label>
+      <input type="number" id="authorId" [(ngModel)]="authorId" name="authorId" required>
+      <button type="submit">Search</button>
+    </form>
+    <div *ngIf="author" class="author-details">
+      <h3>Author Details</h3>
+      <p>First Name: {{ author.firstName }}</p>
+      <p>Last Name: {{ author.lastName }}</p>
+    </div>
+    <div *ngIf="errorMessage" class="error-message">
+      <p>{{ errorMessage }}</p>
+    </div>
+  </div>
+  
+  
